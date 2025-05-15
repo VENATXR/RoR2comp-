@@ -4,7 +4,7 @@
   "expo": {
     "name": "RoR2comp",
     "slug": "risk-of-rain-2-companion",
-    "version": "0.1",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
