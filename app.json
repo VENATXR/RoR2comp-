@@ -1,0 +1,36 @@
+{
+  "name": "RoR2comp",
+  "displayName": "RoR2comp",
+  "expo": {
+    "name": "RoR2comp",
+    "slug": "risk-of-rain-2-companion",
+    "version": "0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 30000
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ru.venatxr.ror2comp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "ru.venatxr.ror2comp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
