@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, ScrollView, Linking, TouchableOpacity } from 'r
 const AboutScreen = () => {
     const appName = 'Risk of Rain 2 Companion';
     const developer = 'VENATXR';
-    const telegramLink = "https://t.me/N7Joker"; // Ссылка разработчика
+    const telegramLink = "https://t.me/N7_Joker"; // Ссылка разработчика
     const githubLink = "https://github.com/VENATXR"; // Ссылка GitHub
 
     const openLink = (url) => {
