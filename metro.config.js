@@ -20,11 +20,11 @@ export default (async () => {
       sourceExts: [...sourceExts, 'svg'],
     },
     watchFolders: [
-      resolve(__dirname, '/components'),
-      resolve(__dirname, '/assets'),
-      resolve(__dirname, '/assets/icons'),
-      resolve(__dirname, '/assets/images'),
-      resolve(__dirname, '/data'),
+      resolve(__dirname, './components'),
+      resolve(__dirname, './assets'),
+      resolve(__dirname, './assets/icons'),
+      resolve(__dirname, './assets/images'),
+      resolve(__dirname, './data'),
     ],
     excludeSource: [/node_modules\/.*/],
   };
