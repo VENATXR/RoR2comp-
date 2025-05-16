@@ -11,7 +11,7 @@ const HomeScreen = () => {
         link: "https://www.google.com", // Замените на источник новости
     };
 
-    const telegramLink = "https://t.me/N7Joker";
+    const telegramLink = "https://t.me/N7_Joker";
 
     const openURL = async (url) => {
         try {
@@ -33,7 +33,7 @@ const HomeScreen = () => {
     return (
         <ScrollView style={styles.container}>
             <TouchableOpacity style={styles.telegramButton} onPress={() => openURL(telegramLink)}>
-                <Text style={styles.telegramButtonText}>Мой Telegram (@N7Joker)</Text>
+                <Text style={styles.telegramButtonText}>Мой Telegram (@N7_Joker)</Text>
             </TouchableOpacity>
 
             <View style={styles.newsContainer}>
